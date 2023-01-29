@@ -1,0 +1,199 @@
+.section-description {
+    background: var(--color-gray);
+    font-family: var(--font-family);
+    color: var(--color-white);
+    width: 100vw;
+    /*height: 100vh;*/
+    display: flex;
+    /*flex-wrap: nowrap;*/
+}
+.menu-description {
+    margin-top: 2vh;
+    min-height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.pointer-description {
+    color: var(--color-white);
+}
+#name.pointer-description {
+    cursor: pointer;
+}
+#about.pointer-description {
+    cursor: pointer;
+}
+#contact.pointer-description {
+    cursor: pointer;
+}
+.categories-description {
+    display: flex;
+
+}
+.categories-dots-description {
+    color: var(--color-white);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+.categories-dots-description-one {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+    margin-top: 5vh;
+    margin-right: 8vw;
+}
+.categories-dots-description-two,
+.categories-dots-description-three,
+.categories-dots-description-four {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    margin-top: 5vh;
+    margin-right: 8vw;
+}
+
+.categories-dots-description-one:hover{
+    cursor: auto;
+}
+.categories-dots-description-two:hover,
+.categories-dots-description-three:hover,
+.categories-dots-description-four:hover {
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+}
+.tooltip-description:hover::after {
+    content: "Description";
+    top: -5px;
+    left: 30px;
+    font-size: 18px;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .tooltip-description:hover::after {
+        background: var(--color-white);
+        border: 1px solid var(--color-gray);
+        color: var(--color-gray);
+        padding: 2px 2px;
+    }
+}
+.container-description {
+    flex-basis: 70vw;
+    min-height: 64vh;
+    margin: 14vh 0 0 0;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+}
+
+.container-description p {
+    /*flex-grow: 1;*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.40rem;
+}
+
+/*.container-mocak_description-background {*/
+/*    background: var(--color-white);*/
+/*}*/
+/*.container-mocak_description-background p {*/
+/*    color: var(--color-gray);*/
+/*}*/
+
+.footer-description {
+    flex-grow: 1;
+    min-height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-family);
+}
+
+.footer-description p {
+    flex-grow: 1;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 2vw;
+    margin-bottom: 1vh;
+
+}
+
+@media (max-width: 1600px){
+    .container-description p {
+        font-size: 2.9rem;
+    }
+    .footer-description p {
+        font-size: 1.2rem;
+    }
+
+}
+@media (max-width: 1224px){
+    .container-description p {
+        font-size: 2.35rem;
+    }
+    .footer-description p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px){
+    .container-description p {
+        font-size: 1.8rem;
+    }
+    .footer-description p {
+        font-size: 0.9rem;
+    }
+}
+
+/*MOCAK*/
+.section-description-mocak {
+    background: var(--color-white);
+    color: var(--color-gray);
+    font-family: var(--font-family);
+    width: 100vw;
+    /*height: 100vh;*/
+    display: flex;
+}
+.section-description-mocak a {
+    color: var(--color-gray);
+}
+.mocak-description {
+    display: flex;
+}
+.mocak-dots-description {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 8vw;
+}
+.mocak-dots-description-one {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+    margin-top: 5vh;
+}
+.mocak-dots-description-two,
+.mocak-dots-description-three,
+.mocak-dots-description-four {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    margin-top: 5vh;
+}
+.mocak-dots-description-one:hover{
+    cursor: auto;
+}
+.mocak-dots-description-two:hover,
+.mocak-dots-description-three:hover,
+.mocak-dots-description-four:hover {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+}
+

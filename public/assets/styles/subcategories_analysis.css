@@ -1,0 +1,305 @@
+/*categories - homelibrary*/
+.section-analysis {
+    background: var(--color-gray);
+    font-family: var(--font-family);
+    color: var(--color-white);
+    width: 100vw;
+    display: flex;
+}
+.menu-analysis {
+    margin-top: 2vh;
+    min-height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.pointer-analysis {
+    color: var(--color-white);
+}
+#name.pointer-analysis {
+    cursor: pointer;
+}
+#about.pointer-analysis {
+    cursor: pointer;
+}
+#contact.pointer-analysis {
+    cursor: pointer;
+}
+.mocak-analysis,
+.categories-analysis {
+    display: flex;
+}
+.mocak-dots-analysis,
+.categories-dots-analysis {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 8vw;
+}
+.categories-dots-analysis-two {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+    margin-top: 5vh;
+}
+.categories-dots-analysis-one,
+.categories-dots-analysis-three,
+.categories-dots-analysis-four {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    margin-top: 5vh;
+}
+
+.categories-dots-analysis-two:hover{
+    cursor: auto;
+}
+.categories-dots-analysis-one:hover,
+.categories-dots-analysis-three:hover,
+.categories-dots-analysis-four:hover {
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+}
+
+.tooltip-analysis:hover::after {
+    content: "Analysis";
+    top: -5px;
+    left: 30px;
+    font-size: 18px;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .tooltip-analysis:hover::after {
+        background: var(--color-white);
+        border: 1px solid var(--color-gray);
+        color: var(--color-gray);
+        padding: 2px 2px;
+    }
+}
+
+.img_desktop-analysis {
+    background: var(--color-gray);
+    min-height: 88vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-analysis {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-analysis > img {
+    max-width: 22.60rem;
+    max-height: 40rem;
+    margin-right: 8vw;
+    margin-top: 5vh;
+}
+.img-analysis > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-right: 8vw;
+    margin-top: 2vh;
+}
+#arrowWest,
+#arrowEast {
+    position: fixed;
+}
+.height-architecture {
+    height: 100vh;
+}
+.img-analysis-architecture {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-analysis-architecture > img {
+    max-width: 65.60rem;
+    max-height: 38.75rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-analysis-architecture > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: absolute;
+    top:87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media(max-width: 1464px) {
+    .img-analysis-architecture > img {
+        max-width: 49.2rem;
+        max-height: 29.06rem;
+        top: 42%;
+    }
+    .img-analysis-architecture > p {
+        top: 70%;
+    }
+}
+@media(max-width: 1164px) {
+    .img-analysis-architecture > img {
+        max-width: 35rem;
+        max-height: 20.8rem;
+        top: 35%;
+    }
+    .img-analysis-architecture > p {
+        top: 56%;
+    }
+}
+@media(max-width: 1024px) {
+    .img-analysis-architecture > img {
+        max-width: 29rem;
+        max-height: 17.70rem;
+        top: 32%;
+    }
+    .img-analysis-architecture > p {
+        font-size: 1rem;
+        top: 50%;
+    }
+}
+@media(max-width: 600px) {
+    .img-analysis-architecture > img {
+        max-width: 25rem;
+        max-height: 15rem;
+        top: 30%;
+        left: 53%;
+    }
+    .img-analysis-architecture > p {
+        font-size: 1rem;
+        top: 46%;
+        left: 53%;
+    }
+}
+
+
+/*MOCAK*/
+.section-analysis-mocak {
+    background: var(--color-white);
+    color: var(--color-gray);
+    font-family: var(--font-family);
+    width: 100vw;
+    /*height: 100vh;*/
+    display: flex;
+}
+.section-analysis-mocak a {
+    color: var(--color-gray);
+}
+.mocak-analysis {
+    display: flex;
+}
+.mocak-dots-analysis {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+.mocak-dots-analysis-two {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+    margin-top: 5vh;
+}
+.mocak-dots-analysis-one,
+.mocak-dots-analysis-three,
+.mocak-dots-analysis-four {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    margin-top: 5vh;
+}
+.mocak-dots-analysis-two:hover{
+    cursor: auto;
+}
+.mocak-dots-analysis-one:hover,
+.mocak-dots-analysis-three:hover,
+.mocak-dots-analysis-four:hover {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+}
+.arrow-mocak-east,
+.arrow-mocak-west {
+    color: var(--color-gray);
+}
+.img_desktop-analysis-mocak {
+    background: var(--color-white);
+}
+#mocak-arrow-west{
+    position: fixed;
+    left: 2vw;
+    top: 90vh;
+    color: var(--color-gray);
+}
+#mocak-arrow-east{
+    position: fixed;
+    right: 2vw;
+    top: 90vh;
+    color: var(--color-gray);
+}
+
+/*--------------HANDMADE--------------------*/
+.handmade-analysis {
+    display: flex;
+}
+
+.handmade-dots-analysis {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 8vw;
+}
+.handmade-dots-analysis-two {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+    margin-top: 5vh;
+}
+.handmade-dots-analysis-one,
+.handmade-dots-analysis-three,
+.handmade-dots-analysis-four {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    margin-top: 5vh;
+}
+.handmade-dots-analysis-two:hover{
+    cursor: auto;
+}
+.handmade-dots-analysis-one:hover,
+.handmade-dots-analysis-three:hover,
+.handmade-dots-analysis-four:hover {
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+}
+.arrow-handmade-east,
+.arrow-handmade-west {
+    color: var(--color-white);
+}
+
+#handmade-arrow-west{
+    position: fixed;
+    left: 2vw;
+    top: 90vh;
+    color: var(--color-white);
+}
+#handmade-arrow-east{
+    position: fixed;
+    right: 2vw;
+    top: 90vh;
+    color: var(--color-white);
+}
+
+

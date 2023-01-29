@@ -1,0 +1,127 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --img_cat-mocak1: url("/assets/images_categories/mocak1.jpg");
+    --img_cat-mocak2: url("/assets/images_categories/mocak2.jpg");
+    --img_cat-mocak3: url("/assets/images_categories/mocak3.jpg");
+}
+.mocak-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: var(--img_cat-mocak1);
+    background-size: cover;
+    background-position: center;
+    color: var(--color-black);
+}
+.mocak-main-presentation {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: var(--img_cat-mocak2);
+    background-size: cover;
+    background-position: center;
+    color: var(--color-black);
+}
+.mocak-main-presentation_mobile {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: var(--img_cat-mocak3);
+    background-size: cover;
+    color: var(--color-white);
+    /*background-position: right;*/
+}
+.mocak-main-presentation_mobile a {
+    color: var(--color-white);
+}
+
+.mocak-menu {
+    margin-top: 2vh;
+    /*flex-grow: 1;*/
+    /*flex-basis: 20vh;*/
+    display: flex;
+    height: 10vh;
+}
+
+#mocak-name {
+    /*flex-basis: 60vh;*/
+    flex-grow: 1;
+    margin-left: 5vw;
+}
+#mocak-name--change {
+    /*flex-basis: 60vh;*/
+    flex-grow: 1;
+    margin-left: 5vw;
+}
+#mocak-name--change::after {
+    content: 'Mocak';
+    transition: all .9s ease-in-out;
+}
+#mocak-name--change:hover::after {
+    content: 'Aleksandra Tarnawska';
+}
+#mocak-about {
+    flex-basis: 10vh;
+    /*flex-shrink: 1;*/
+    margin-right: 2vw;
+    /*color: var(--color-black);*/
+}
+
+#mocak-contact {
+    flex-basis: 10vh;
+    flex-shrink: 1;
+    margin-right: 2vw;
+    /*color: var(--color-black);*/
+}
+.mocak-dots {
+    /*color: var(--color-black);*/
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+.mocak-dots-one,
+.mocak-dots-two,
+.mocak-dots-three,
+.mocak-dots-four {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    margin-top: 5vh;
+}
+
+.mocak-dots-one:hover,
+.mocak-dots-two:hover,
+.mocak-dots-three:hover,
+.mocak-dots-four:hover {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+}
+.dots-white {
+    background-color: var(--color-white);
+}
+.dots-white:hover {
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+}
+
+#mocak-arrowEast {
+    position: absolute;
+    right: 2vw;
+    top: 90vh;
+    /*color: var(--color-black);*/
+}
+#mocak-arrowWest {
+    position: absolute;
+    left: 2vw;
+    top: 90vh;
+    /*color: var(--color-black);*/
+}

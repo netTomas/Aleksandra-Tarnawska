@@ -1,0 +1,48 @@
+<section class="handmade-main">
+
+        <div class="handmade-menu">
+            <a href="/homepage" id="handmade-name--change"></a>
+            <a href="/about" id="handmade-about">About</a>
+            <a href="/contact" id="handmade-contact">Contact</a>
+        </div>
+            <div class="handmade-dots">
+                <span
+                        class="handmade-dots-one tooltip-description"
+                        onclick="onclickHandmadeDotsOne();"
+                >
+                </span>
+                <span
+                        class="handmade-dots-two tooltip-analysis"
+                        onclick="onclickHandmadeDotsTwo();"
+                >
+                </span>
+                <span
+                        class="handmade-dots-three tooltip-desktop"
+                        onclick="onclickHandmadeDotsThree();"
+                >
+                </span>
+                <span
+                        class="handmade-dots-four tooltip-mobile"
+                        onclick="onclickHandmadeDotsFour();"
+                >
+                </span>
+            </div>
+
+            <span
+                    class="material-symbols-outlined"
+                    id="handmade-arrowEast"
+                    onclick="onclickHandmadeArrowEast();"
+            >
+                east
+            </span>
+
+</section>
+
+<section class="home_library-mobile">
+
+            {{>handmade-mobile/description}}
+            {{>handmade-mobile/analysis}}
+            {{>handmade-mobile/desktop}}
+            {{>handmade-mobile/mobile}}
+
+</section>

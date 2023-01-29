@@ -1,0 +1,44 @@
+<section class="mocak-main">
+
+        <div class="mocak-menu">
+            <a href="/homepage" id="mocak-name--change"></a>
+            <a href="/about" id="mocak-about">About</a>
+            <a href="/contact" id="mocak-contact">Contact</a>
+        </div>
+            <div class="mocak-dots">
+                <span
+                        class="mocak-dots-one tooltip-description"
+                        onclick="onclickMocakDotsOne();"
+                >
+                </span>
+                <span
+                        class="mocak-dots-two tooltip-analysis"
+                        onclick="onclickMocakDotsTwo();"
+                >
+                </span>
+                <span
+                        class="mocak-dots-three tooltip-desktop"
+                        onclick="onclickMocakDotsThree();"
+                >
+                </span>
+                <span
+                        class="mocak-dots-four tooltip-mobile"
+                        onclick="onclickMocakDotsFour();"
+                >
+                </span>
+            </div>
+
+            <span
+                    class="material-symbols-outlined"
+                    id="mocak-arrowEast"
+                    onclick="onclickMocakArrowEast();"
+            >
+                east
+            </span>
+</section>
+<section class="home_library-mobile">
+    {{>mocak-mobile/description}}
+    {{>mocak-mobile/analysis}}
+    {{>mocak-mobile/desktop}}
+    {{>mocak-mobile/mobile}}
+</section>

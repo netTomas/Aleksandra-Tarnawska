@@ -1,0 +1,45 @@
+<section class="categories-main">
+
+        <div class="categories-menu">
+            <a href="/homepage" id="categories-name--change"></a>
+            <a href="/about" id="categories-about">About</a>
+            <a href="/contact" id="categories-contact">Contact</a>
+        </div>
+            <div class="categories-dots">
+                <span
+                        class="categories-dots-one tooltip-description"
+                        onclick="onclickDotsOne();"
+                >
+                </span>
+                <span
+                        class="categories-dots-two tooltip-analysis"
+                        onclick="onclickDotsTwo();"
+                >
+                </span>
+                <span
+                        class="categories-dots-three tooltip-desktop"
+                        onclick="onclickDotsThree();"
+                >
+                </span>
+                <span
+                        class="categories-dots-four tooltip-mobile"
+                        onclick="onclickDotsFour();"
+                >
+                </span>
+            </div>
+
+            <span
+                    class="material-symbols-outlined"
+                    id="arrowEast"
+                    onclick="onclickArrowEast();"
+            >
+                east
+            </span>
+</section>
+
+<section class="home_library-mobile">
+    {{>homelibrary-mobile/description}}
+    {{>homelibrary-mobile/analysis}}
+    {{>homelibrary-mobile/desktop}}
+    {{>homelibrary-mobile/mobile}}
+</section>
