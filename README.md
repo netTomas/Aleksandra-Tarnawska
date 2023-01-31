@@ -1,2 +1,0 @@
-# Aleksandra-Tarnawska pages
-
