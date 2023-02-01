@@ -82,7 +82,6 @@ app.use('/handmade/mobile', mobile_handmadeRouter);
 
 app.listen(3000, '0.0.0.0');
 
-// app.listen(3000, '0.0.0.0', () => {
-//   console.log('Listening on http://0.0.0.0:3000');
-// });
+
+
 
