@@ -35,6 +35,7 @@ const {homeRouter} = require("./routers/home");
 
 const app = express();
 
+
 app.use(express.urlencoded({ //chyba nie potrzebne
   extended: true,
 }));
