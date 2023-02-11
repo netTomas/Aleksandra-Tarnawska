@@ -106,11 +106,11 @@ content.addEventListener("mouseout", subInfo);
 
 function onclickHandler() {
     if(titles[activeImg] === titles[0]) {
-        location.href="http://localhost:3000/homelibrary";
+        location.href="http://port/homelibrary";
     } else if (titles[activeImg] === titles[1]) {
-        location.href="http://localhost:3000/mocak";
+        location.href="http://port/mocak";
     } else if (titles[activeImg] === titles[2]) {
-        location.href="http://localhost:3000/handmade";
+        location.href="http://port/handmade";
     }
 
 }
