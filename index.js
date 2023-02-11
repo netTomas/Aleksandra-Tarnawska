@@ -80,8 +80,8 @@ app.use('/handmade/desktop', desktop_handmadeRouter);
 app.use('/handmade/product', desktop_product_handmadeRouter);
 app.use('/handmade/mobile', mobile_handmadeRouter);
 
-
-app.listen(3000, '0.0.0.0');
+const port = process.env.PORT || 3000;
+app.listen(port, '0.0.0.0');
 
 
 
