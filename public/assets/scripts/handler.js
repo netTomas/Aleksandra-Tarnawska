@@ -1,6 +1,9 @@
 // function onclickHandler() {
 //     location.href="http://localhost:3000/homelibrary";
 // }
+
+const adressLocation = "https://aleksandratarnawska.herokuapp.com/";
+
 function onclickDotsOne() {
     location.href="http://localhost:3000/homelibrary/description";
     console.log('description');
@@ -145,11 +148,11 @@ function onclickHandmadeArrowWestProduct() {
 }
 
 function onclickHandlerMobileMocak() {
-    location.href="http://localhost:3000/mocak";
+    location.href=adressLocation + "mocak";
 }
 function onclickHandlerMobileHomelibrary() {
-    location.href="http://localhost:3000/homelibrary";
+    location.href=adressLocation + "homelibrary";
 }
 function onclickHandlerMobileHandmade() {
-    location.href="http://localhost:3000/handmade";
+    location.href=adressLocation + "handmade";
 }
