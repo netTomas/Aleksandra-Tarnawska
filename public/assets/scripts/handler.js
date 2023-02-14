@@ -5,146 +5,134 @@
 const adressLocation = "https://aleksandratarnawska.herokuapp.com/";
 
 function onclickDotsOne() {
-    location.href="http://localhost:3000/homelibrary/description";
-    console.log('description');
+    location.href=adressLocation + "homelibrary/description";
 }
 function onclickDotsTwo() {
-    location.href="http://localhost:3000/homelibrary/analysis";
-    console.log('analysis');
+    location.href=adressLocation + "homelibrary/analysis";
 }
 function onclickDotsThree() {
-    location.href="http://localhost:3000/homelibrary/desktop";
-    console.log('desktop');
+    location.href=adressLocation + "homelibrary/desktop";
 }
 function onclickDotsFour() {
-    location.href="http://localhost:3000/homelibrary/mobile";
-    console.log('mobile');
+    location.href=adressLocation + "homelibrary/mobile";
 }
 
 function onclickArrowEast() {
-    location.href="http://localhost:3000/homelibrary/presentation";
+    location.href=adressLocation + "homelibrary/presentation";
 }
 function onclickArrowWest() {
-    location.href="http://localhost:3000/homelibrary";
+    location.href=adressLocation + "homelibrary";
 }
 function onclickArrowEastTwo() {
-    location.href="http://localhost:3000/homelibrary/presentation_mobile";
+    location.href=adressLocation + "homelibrary/presentation_mobile";
 }
 function onclickArrowWestTwo() {
-    location.href="http://localhost:3000/homelibrary/presentation";
+    location.href=adressLocation + "homelibrary/presentation";
 }
 function onclickArrowEastAnalyses() {
-    location.href="http://localhost:3000/homelibrary/architecture";
+    location.href=adressLocation + "homelibrary/architecture";
 }
 function onclickArrowWestAnalyses() {
-    location.href="http://localhost:3000/homelibrary";
+    location.href=adressLocation + "homelibrary";
 }
 function onclickArrowWestArchitecture() {
-    location.href="http://localhost:3000/homelibrary/analysis";
+    location.href=adressLocation + "homelibrary/analysis";
 }
 function onclickArrowEastDesktop() {
-    location.href="http://localhost:3000/homelibrary/booksearch";
+    location.href=adressLocation + "homelibrary/booksearch";
 }
 function onclickArrowWestDesktop() {
-    location.href="http://localhost:3000/homelibrary";
+    location.href=adressLocation + "homelibrary";
 }
 function onclickArrowWestBooksearch() {
-    location.href="http://localhost:3000/homelibrary/desktop";
+    location.href=adressLocation + "homelibrary/desktop";
 }
 
 //////////Mocak/////
 function onclickMocakDotsOne() {
-    location.href="http://localhost:3000/mocak/description";
-    console.log('description');
+    location.href=adressLocation + "mocak/description";
 }
 function onclickMocakDotsTwo() {
-    location.href="http://localhost:3000/mocak/analysis";
-    console.log('analysis');
+    location.href=adressLocation + "mocak/analysis";
 }
 function onclickMocakDotsThree() {
-    location.href="http://localhost:3000/mocak/desktop";
-    console.log('desktop');
+    location.href=adressLocation + "mocak/desktop";
 }
 function onclickMocakDotsFour() {
-    location.href="http://localhost:3000/mocak/mobile";
-    console.log('mobile');
+    location.href=adressLocation + "mocak/mobile";
 }
 function onclickMocakArrowEast() {
-    location.href="http://localhost:3000/mocak/presentation";
+    location.href=adressLocation + "mocak/presentation";
 }
 function onclickMocakArrowWest() {
-    location.href="http://localhost:3000/mocak";
+    location.href=adressLocation + "mocak";
 }
 function onclickMocakArrowEastTwo() {
-    location.href="http://localhost:3000/mocak/presentation_mobile";
+    location.href=adressLocation + "mocak/presentation_mobile";
 }
 function onclickMocakArrowWestTwo() {
-    location.href="http://localhost:3000/mocak/presentation";
+    location.href=adressLocation + "mocak/presentation";
 }
 function onclickMocakArrowEastAnalyses() {
-    location.href="http://localhost:3000/mocak/architecture";
+    location.href=adressLocation + "mocak/architecture";
 }
 function onclickMocakArrowWestAnalyses() {
-    location.href="http://localhost:3000/mocak";
+    location.href=adressLocation + "mocak";
 }
 function onclickMocakArrowWestArchitecture() {
-    location.href="http://localhost:3000/mocak/analysis";
+    location.href=adressLocation + "mocak/analysis";
 }
 function onclickMocakArrowEastDesktop() {
-    location.href="http://localhost:3000/mocak/current";
+    location.href=adressLocation + "mocak/current";
 }
 function onclickMocakArrowWestDesktop() {
-    location.href="http://localhost:3000/mocak";
+    location.href=adressLocation + "mocak";
 }
 function onclickMocakArrowWestCurrent() {
-    location.href="http://localhost:3000/mocak/desktop";
+    location.href=adressLocation + "mocak/desktop";
 }
 //////////Handmade/////
 function onclickHandmadeDotsOne() {
-    location.href="http://localhost:3000/handmade/description";
-    console.log('description');
+    location.href=adressLocation + "handmade/description";
 }
 function onclickHandmadeDotsTwo() {
-    location.href="http://localhost:3000/handmade/analysis";
-    console.log('analysis');
+    location.href=adressLocation + "handmade/analysis";
 }
 function onclickHandmadeDotsThree() {
-    location.href="http://localhost:3000/handmade/desktop";
-    console.log('desktop');
+    location.href=adressLocation + "handmade/desktop";
 }
 function onclickHandmadeDotsFour() {
-    location.href="http://localhost:3000/handmade/mobile";
-    console.log('mobile');
+    location.href=adressLocation + "handmade/mobile";
 }
 function onclickHandmadeArrowEast() {
-    location.href="http://localhost:3000/handmade/presentation";
+    location.href=adressLocation + "handmade/presentation";
 }
 function onclickHandmadeArrowWest() {
-    location.href="http://localhost:3000/handmade";
+    location.href=adressLocation + "handmade";
 }
 function onclickHandmadeArrowEastTwo() {
-    location.href="http://localhost:3000/handmade/presentation_mobile";
+    location.href=adressLocation + "handmade/presentation_mobile";
 }
 function onclickHandmadeArrowWestTwo() {
-    location.href="http://localhost:3000/handmade/presentation";
+    location.href=adressLocation + "handmade/presentation";
 }
 function onclickHandmadeArrowEastAnalyses() {
-    location.href="http://localhost:3000/handmade/architecture";
+    location.href=adressLocation + "handmade/architecture";
 }
 function onclickHandmadeArrowWestAnalyses() {
-    location.href="http://localhost:3000/handmade";
+    location.href=adressLocation + "handmade";
 }
 function onclickHandmadeArrowWestArchitecture() {
-    location.href="http://localhost:3000/handmade/analysis";
+    location.href=adressLocation + "handmade/analysis";
 }
 function onclickHandmadeArrowEastDesktop() {
-    location.href="http://localhost:3000/handmade/product";
+    location.href=adressLocation + "handmade/product";
 }
 function onclickHandmadeArrowWestDesktop() {
-    location.href="http://localhost:3000/handmade";
+    location.href=adressLocation + "handmade";
 }
 function onclickHandmadeArrowWestProduct() {
-    location.href="http://localhost:3000/handmade/desktop";
+    location.href=adressLocation + "handmade/desktop";
 }
 
 function onclickHandlerMobileMocak() {
