@@ -103,14 +103,15 @@ const subInfo = function() {
 }
 content.addEventListener("mouseout", subInfo);
 
+const port = process.env.PORT || 3000;
 
 function onclickHandler() {
     if(titles[activeImg] === titles[0]) {
-        location.href="http://port/homelibrary";
+        location.href="locationAdress/homelibrary";
     } else if (titles[activeImg] === titles[1]) {
-        location.href="http://port/mocak";
+        location.href="locationAdress/mocak";
     } else if (titles[activeImg] === titles[2]) {
-        location.href="http://port/handmade";
+        location.href="locationAdress/handmade";
     }
 
 }
