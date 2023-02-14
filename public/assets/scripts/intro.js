@@ -2,7 +2,6 @@ const spnText = document.querySelector("[data-text]");
 const spnCursor = document.querySelector("[data-cursor]");
 const txt = ['Hi, I am Aleksandra Tarnawska,', 'digital designer.'];
 
-const locationAdress = "https://aleksandratarnawska.herokuapp.com";
 
 let activeLetter = -10;
 let activeText = 0;
@@ -36,5 +35,5 @@ setTimeout(cursorAnimation, 400);
 
 
 const openStart = () => {
-    location.href='locationAdress/homepage';
+    location.href='https://aleksandratarnawska.herokuapp.com/homepage';
 }

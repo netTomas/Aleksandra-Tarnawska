@@ -5,8 +5,8 @@ const spans= document.querySelectorAll(".material-symbols-outlined");
 const navPrev = document.querySelector("[data-nav-prev]");
 const navNext = document.querySelector("[data-nav-next]");
 
-const slider = document.querySelectorAll('[data-slider]');
-const newSlider = [...slider];
+// const slider = document.querySelectorAll('[data-slider]');
+// const newSlider = [...slider];
 
 const sliderLeft = document.querySelector('.img-left');
 const sliderCenter = document.querySelector('.img-center');
@@ -103,15 +103,14 @@ const subInfo = function() {
 }
 content.addEventListener("mouseout", subInfo);
 
-const port = process.env.PORT || 3000;
 
 function onclickHandler() {
     if(titles[activeImg] === titles[0]) {
-        location.href="locationAdress/homelibrary";
+        location.href="https://aleksandratarnawska.herokuapp.com/homelibrary";
     } else if (titles[activeImg] === titles[1]) {
-        location.href="locationAdress/mocak";
+        location.href="https://aleksandratarnawska.herokuapp.com/mocak";
     } else if (titles[activeImg] === titles[2]) {
-        location.href="locationAdress/handmade";
+        location.href="https://aleksandratarnawska.herokuapp.com/handmade";
     }
 
 }
