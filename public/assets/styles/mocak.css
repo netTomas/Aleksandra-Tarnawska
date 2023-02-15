@@ -53,12 +53,12 @@
 #mocak-name {
     /*flex-basis: 60vh;*/
     flex-grow: 1;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 #mocak-name--change {
     /*flex-basis: 60vh;*/
     flex-grow: 1;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 #mocak-name--change::after {
     content: 'Mocak';
