@@ -28,12 +28,11 @@
 .categories-analysis {
     display: flex;
 }
-.mocak-dots-analysis,
 .categories-dots-analysis {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-right: 8vw;
 }
 .categories-dots-analysis-two {
@@ -185,7 +184,6 @@
     color: var(--color-gray);
     font-family: var(--font-family);
     width: 100vw;
-    /*height: 100vh;*/
     display: flex;
 }
 .section-analysis-mocak a {
@@ -198,7 +196,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 .mocak-dots-analysis-two {
     width: 15px;
@@ -255,7 +253,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-right: 8vw;
 }
 .handmade-dots-analysis-two {
