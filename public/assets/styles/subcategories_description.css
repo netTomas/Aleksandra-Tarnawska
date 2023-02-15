@@ -3,9 +3,7 @@
     font-family: var(--font-family);
     color: var(--color-white);
     width: 100vw;
-    /*height: 100vh;*/
     display: flex;
-    /*flex-wrap: nowrap;*/
 }
 .menu-description {
     margin-top: 2vh;
@@ -34,7 +32,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 .categories-dots-description-one {
     width: 15px;
@@ -90,18 +88,10 @@
 }
 
 .container-description p {
-    /*flex-grow: 1;*/
     font-style: normal;
     font-weight: 400;
     font-size: 3.40rem;
 }
-
-/*.container-mocak_description-background {*/
-/*    background: var(--color-white);*/
-/*}*/
-/*.container-mocak_description-background p {*/
-/*    color: var(--color-gray);*/
-/*}*/
 
 .footer-description {
     flex-grow: 1;
@@ -154,7 +144,6 @@
     color: var(--color-gray);
     font-family: var(--font-family);
     width: 100vw;
-    /*height: 100vh;*/
     display: flex;
 }
 .section-description-mocak a {
@@ -167,7 +156,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-right: 8vw;
 }
 .mocak-dots-description-one {
