@@ -44,12 +44,12 @@
 }
 #categories-name {
     flex-grow: 1;
-    margin-left: 5vw;
+    margin-left: 2vw;
     color: var(--color-white);
 }
 #categories-name--change {
     flex-grow: 1;
-    margin-left: 5vw;
+    margin-left: 2vw;
     color: var(--color-white);
 }
 #categories-name--change::after {
