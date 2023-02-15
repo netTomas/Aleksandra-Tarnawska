@@ -32,8 +32,8 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
-    margin-right: 8vw;
+    margin-left: 2vw;
+    margin-right: 7vw;
 }
 .categories-dots-desktop-three {
     width: 15px;
@@ -95,7 +95,7 @@
 .img-desktop > img {
     max-width: 43rem;
     max-height: 41.25rem;
-    margin-right: 6vw;
+    margin-right: 5vw;
     margin-top: 5vh;
     border-radius: 1.25rem;
     display: flex;
@@ -104,7 +104,7 @@
 .img-desktop > p {
     font-size: 1.5rem;
     font-weight: 400;
-    margin-right: 6vw;
+    margin-right: 5vw;
     margin-top: 2vh;
 }
 #arrowWest,
@@ -147,8 +147,8 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
-    margin-right: 8vw;
+    margin-left: 2vw;
+    margin-right: 7vw;
 }
 .mocak-dots-desktop-three {
     width: 15px;
