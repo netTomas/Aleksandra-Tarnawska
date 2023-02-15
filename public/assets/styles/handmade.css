@@ -50,11 +50,11 @@
 }
 #handmade-name {
     flex-grow: 1;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 #handmade-name--change {
     flex-grow: 1;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 #handmade-name--change::after {
     content: 'Rzeczy Twórcze';
