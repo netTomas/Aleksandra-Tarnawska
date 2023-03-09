@@ -210,7 +210,6 @@
         background-color: var(--color-gray);
         width: 100vw;
         height: auto;
-
     }
     /*description*/
 
@@ -239,6 +238,8 @@
         height: auto;
         display: flex;
         justify-content: space-around;
+        overflow-x: auto;
+        /*overscroll-behavior: contain;*/
     }
     .img_mobile-subcategories1--partial {
         height: auto;
