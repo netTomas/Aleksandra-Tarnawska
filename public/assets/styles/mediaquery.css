@@ -234,16 +234,14 @@
     }
 
     .img_mobile-subcategories--partial {
-        /*width: auto;*/
+        width: 100vw;
         /*height: auto;*/
         display: flex;
-        justify-content: space-around;
+        /*justify-content: space-around;*/
         overflow-x: auto;
         /*overscroll-behavior: contain;*/
     }
     .img_mobile-subcategories1--partial {
-        width: auto;
-        height: auto;
         display: flex;
         flex-direction: column;
     }
