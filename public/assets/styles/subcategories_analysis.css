@@ -27,13 +27,15 @@
 .mocak-analysis,
 .categories-analysis {
     display: flex;
+    width: 100vw;
 }
 .categories-dots-analysis {
+    width: 5vw;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     margin-left: 2vw;
-    margin-right: 7vw;
+    /*margin-right: 7vw;*/
 }
 .categories-dots-analysis-two {
     width: 15px;
@@ -80,6 +82,7 @@
 }
 
 .img_desktop-analysis {
+    width: 90vw;
     background: var(--color-gray);
     min-height: 88vh;
     display: flex;
@@ -95,13 +98,13 @@
 .img-analysis > img {
     max-width: 22.60rem;
     max-height: 40rem;
-    margin-right: 7vw;
+    /*margin-right: 7vw;*/
     margin-top: 5vh;
 }
 .img-analysis > p {
     font-size: 1.5rem;
     font-weight: 400;
-    margin-right: 7vw;
+    /*margin-right: 7vw;*/
     margin-top: 2vh;
 }
 #arrowWest,

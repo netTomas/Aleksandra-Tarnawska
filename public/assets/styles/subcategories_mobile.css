@@ -26,14 +26,16 @@
 
 .categories-mobile {
     display: flex;
+    width: 100vw;
 }
 .categories-dots-mobile {
+    width: 5vw;
     color: var(--color-white);
     cursor: pointer;
     display: flex;
     flex-direction: column;
     margin-left: 2vw;
-    margin-right: 7vw;
+    /*margin-right: 7vw;*/
 }
 .categories-dots-mobile-four {
     width: 15px;
@@ -80,6 +82,7 @@
 }
 
 .img_desktop-mobile {
+    width: 90vw;
     background: var(--color-gray);
     min-height: 88vh;
     display: flex;
@@ -98,14 +101,14 @@
 .img-mobile > img {
     max-width: 14rem;
     max-height: 42.5rem;
-    margin-right: 3vw;
+    /*margin-right: 3vw;*/
     margin-top: 5vh;
     border-radius: 1.25rem;
 }
 .img-mobile > p {
     font-size: 1.5rem;
     font-weight: 400;
-    margin-right: 3vw;
+    /*margin-right: 3vw;*/
     margin-top: 2vh;
 }
 
