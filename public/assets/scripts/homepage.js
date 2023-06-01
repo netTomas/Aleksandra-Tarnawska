@@ -2,8 +2,8 @@ let activeImg = 0;
 
 const spans= document.querySelectorAll(".material-symbols-outlined");
 
-const navPrev = document.querySelector("[data-nav-prev]");
-const navNext = document.querySelector("[data-nav-next]");
+const navNext = document.querySelector("[data-nav-prev]");
+const navPrev = document.querySelector("[data-nav-next]");
 
 // const slider = document.querySelectorAll('[data-slider]');
 // const newSlider = [...slider];
