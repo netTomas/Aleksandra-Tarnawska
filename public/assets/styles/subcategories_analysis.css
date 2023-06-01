@@ -136,7 +136,9 @@
     transform: translate(-50%, -50%);
 }
 @media(max-width: 1464px) {
-    .img-analysis-architecture > img {
+    .img-analysis > img,
+    .img-analysis-architecture > img,
+    .img-desktop > img {
         max-width: 49.2rem;
         max-height: 29.06rem;
         top: 42%;
