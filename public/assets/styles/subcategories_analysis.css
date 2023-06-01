@@ -135,7 +135,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media(max-width: 1464px) {
+@media(max-width: 1564px) {
     .img-analysis > img,
     .img-analysis-architecture > img,
     .img-desktop > img {
