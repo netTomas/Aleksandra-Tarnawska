@@ -137,8 +137,7 @@
 }
 @media(max-width: 1564px) {
     .img-analysis > img,
-    .img-analysis-architecture > img,
-    .img-desktop > img {
+    .img-analysis-architecture > img {
         max-width: 49.2rem;
         max-height: 29.06rem;
         top: 42%;

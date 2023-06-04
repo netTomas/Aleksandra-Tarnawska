@@ -114,7 +114,12 @@
 #arrowEast {
     position: fixed;
 }
-
+@media(max-width: 1564px) {
+    .img-desktop > img {
+        max-width: 38.7rem;
+        max-height: 37.13rem;
+    }
+}
 @media(max-width: 1024px) {
     .img-desktop > img {
         max-width: 34.8rem;
