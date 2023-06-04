@@ -151,6 +151,12 @@ a {
     color: var(--color-gray);
 }
 
+@media (max-width: 1600px) {
+    .material-symbols-outlined {
+        font-size: 3.25rem;
+    }
+}
+
 /*about*/
 .section-about {
     background: var(--color-gray);
