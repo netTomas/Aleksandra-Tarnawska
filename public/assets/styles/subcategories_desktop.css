@@ -116,8 +116,8 @@
 }
 @media(max-width: 1600px) {
     .img-desktop > img {
-        max-width: 38.7rem;
-        max-height: 37.13rem;
+        max-width: 36.55rem;
+        max-height: 35.06rem;
     }
 }
 @media(max-width: 1024px) {
