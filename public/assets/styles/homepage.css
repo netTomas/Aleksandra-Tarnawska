@@ -68,7 +68,7 @@ a {
 
 /*homepage*/
 .img-slider {
-    height: 80vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,6 +126,7 @@ a {
     opacity: 1;
 }
 .nav {
+    height: 10vh;
     flex-grow: 1;
     /*flex-basis: 13vh;*/
     display: flex;
