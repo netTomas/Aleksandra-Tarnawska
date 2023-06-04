@@ -10,7 +10,8 @@ body {
     height: 100vh;
     background: radial-gradient(50% 50% at 50% 50%, rgba(177, 78, 193, 0.6) 0%, rgba(255, 254, 254, 0) 100%), #E7E7E7;
     display: flex;
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
+    justify-content: center;
     align-items: center;
 }
 
@@ -19,7 +20,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 4rem;
-    margin-left: 30vw;
+    /*margin-left: 30vw;*/
 }
 
 .cursor-intro {
@@ -30,14 +31,14 @@ body {
     opacity: 1;
 }
 
-@media (max-width: 1600px){
-    .intro {
-        justify-content: center;
-    }
-    .intro > .text-intro {
-        margin-left: 0;
-    }
-}
+/*@media (max-width: 1600px){*/
+/*    .intro {*/
+/*        justify-content: center;*/
+/*    }*/
+/*    .intro > .text-intro {*/
+/*        margin-left: 0;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 1024px) {
     .intro {
