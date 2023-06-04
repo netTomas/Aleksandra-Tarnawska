@@ -30,6 +30,15 @@ body {
     opacity: 1;
 }
 
+@media (max-width: 1600px){
+    .intro {
+        justify-content: center;
+    }
+    .intro > .text-intro {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 1024px) {
     .intro {
         justify-content: center;
