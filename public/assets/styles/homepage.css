@@ -105,7 +105,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 1550px) {
+@media (max-width: 1600px) {
+    .img-wrapper > .content {
+        font-size: 9vh;
+    }
+}
+@media (max-width: 1200px) {
     .img-wrapper > .content {
         font-size: 7vh;
     }
