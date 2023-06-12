@@ -176,6 +176,7 @@
     .container-contact p {
         margin-top: 12vh;
         font-size: 1.5rem;
+        margin-left: -2rem;
     }
     .container-contact u {
         font-size: 1.8rem;
