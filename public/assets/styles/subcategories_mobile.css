@@ -101,21 +101,34 @@
 .img-mobile > img {
     max-width: 14rem;
     max-height: 42.5rem;
-    /*margin-right: 3vw;*/
     margin-top: 5vh;
     border-radius: 1.25rem;
 }
 .img-mobile > p {
     font-size: 1.5rem;
     font-weight: 400;
-    /*margin-right: 3vw;*/
     margin-top: 2vh;
 }
 
 @media(max-width: 1600px) {
     .img-mobile > img {
-        max-width: 11.2rem;
-        max-height: 34rem;
+        max-width: 10.5rem;
+        max-height: 31.88rem;
+    }
+}
+@media(max-width: 1024px) {
+    .img-mobile > img {
+        max-width: 7.88rem;
+        max-height: 23.91rem;
+    }
+}
+@media(max-width: 768px) {
+    .img-mobile > img {
+        max-width: 5.92rem;
+        max-height: 17.93rem;
+    }
+    .img-mobile > p {
+        font-size: 1rem;
     }
 }
 /*-----------------MOCAK------------*/
