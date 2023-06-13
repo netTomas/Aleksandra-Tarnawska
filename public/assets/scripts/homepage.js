@@ -17,15 +17,15 @@ const content = document.querySelector("[data-content]");
 const images = [
     '/assets/images_main/home library homepage mockup.jpg',
     '/assets/images_main/mocakmokap.jpg',
-    '/assets/images_main/rtmokap.jpg'
+    '/assets/images_main/rtmokap light.jpg'
 ];
 const imagesLeft = [
     '/assets/images_main/mocakmokap.jpg',
-    '/assets/images_main/rtmokap.jpg',
+    '/assets/images_main/rtmokap light.jpg',
     '/assets/images_main/home library homepage mockup.jpg'
 ];
 const imagesRight = [
-    '/assets/images_main/rtmokap.jpg',
+    '/assets/images_main/rtmokap light.jpg',
     '/assets/images_main/home library homepage mockup.jpg',
     '/assets/images_main/mocakmokap.jpg'
 ];
