@@ -61,9 +61,9 @@
     }
 
     .title-mobile > p {
-        font-size: 1.4rem;
-        font-weight: 500;
-        line-height: 1.39rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 1.29rem;
         letter-spacing: 0.06rem;
         color: var(--color-gray);
     }
@@ -143,9 +143,9 @@
     }
 
     .title-mobile > p {
-        font-size: 1.8rem;
-        font-weight: 400;
-        line-height: 1.19rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.39rem;
         letter-spacing: 0.06rem;
         color: var(--color-gray);
     }
