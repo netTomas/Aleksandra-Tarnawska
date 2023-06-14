@@ -87,6 +87,7 @@
         display: none;
     }
     .menu {
+        height: 6vh;
         margin-top: 0;
         margin-left: -2px;
     }
