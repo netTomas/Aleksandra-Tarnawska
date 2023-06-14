@@ -87,8 +87,8 @@
         display: none;
     }
     .menu {
-        min-height: 4vh;
-        margin-top: -1vh;
+        height: 6vh;
+        margin-top: 0vh;
         margin-left: -2px;
     }
 
