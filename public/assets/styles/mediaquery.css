@@ -226,6 +226,10 @@
         width: 100vw;
         height: auto;
     }
+    .mocak-mobile-bgc {
+        background-color: var(--color-white);
+    }
+
     /*description*/
 
     .container-description--partials {
@@ -237,7 +241,12 @@
         padding: 20px 15px;
         position: relative;
     }
+    .mocak-mobile-color {
+        color: var(--color-black);
+    }
+
     /*analysis, desktop, mobile*/
+
     .title-subcategories--partial {
         width: 100vw;
     }

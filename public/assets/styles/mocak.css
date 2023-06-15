@@ -44,8 +44,6 @@
 
 .mocak-menu {
     margin-top: 2vh;
-    /*flex-grow: 1;*/
-    /*flex-basis: 20vh;*/
     display: flex;
     height: 10vh;
 }
