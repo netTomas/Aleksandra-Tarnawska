@@ -294,4 +294,7 @@
         width: 110px;
         height: 334px;
     }
+    .title-mocak > p {
+        color: var(--color-black);
+    }
 }
