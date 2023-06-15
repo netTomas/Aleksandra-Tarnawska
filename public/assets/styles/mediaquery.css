@@ -1,5 +1,11 @@
 /******************1024, 768, 480********************************/
 /*******homepage, about, contact****************/
+@media (max-width: 1028px) {
+    a {
+        font-size: 2.00rem;
+    }
+}
+
 
 @media (max-width: 768px) {
 
