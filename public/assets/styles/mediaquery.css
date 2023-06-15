@@ -12,6 +12,9 @@
     .container-contact p {
         margin-top: 15vh;
     }
+    .container-contact a {
+        margin-top: -20vh;
+    }
     .container-contact u {
         font-size: 2.9rem;
     }
