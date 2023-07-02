@@ -2,7 +2,7 @@
 //     location.href="http://localhost:3000/homelibrary";
 // }
 
-const adressLocation = "https://aleksandratarnawska.herokuapp.com/";
+const adressLocation = "https://aleksandratarnawska.com/";
 
 function onclickDotsOne() {
     location.href=adressLocation + "homelibrary/description";

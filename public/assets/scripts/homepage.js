@@ -106,11 +106,11 @@ content.addEventListener("mouseout", subInfo);
 
 function onclickHandler() {
     if(titles[activeImg] === titles[0]) {
-        location.href="https://aleksandratarnawska.herokuapp.com/homelibrary";
+        location.href="https://aleksandratarnawska.com/homelibrary";
     } else if (titles[activeImg] === titles[1]) {
-        location.href="https://aleksandratarnawska.herokuapp.com/mocak";
+        location.href="https://aleksandratarnawska.com/mocak";
     } else if (titles[activeImg] === titles[2]) {
-        location.href="https://aleksandratarnawska.herokuapp.com/handmade";
+        location.href="https://aleksandratarnawska.com/handmade";
     }
 
 }

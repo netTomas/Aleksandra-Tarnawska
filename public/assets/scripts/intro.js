@@ -35,5 +35,5 @@ setTimeout(cursorAnimation, 400);
 
 
 const openStart = () => {
-    location.href='https://aleksandratarnawska.herokuapp.com/homepage';
+    location.href='https://aleksandratarnawska.com/homepage';
 }
